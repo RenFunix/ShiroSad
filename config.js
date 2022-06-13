@@ -8,7 +8,7 @@ global.owner = [
   ['+1 470-823-5045'],
   ['+62 821-4886-4989'],
   ['6282148864989', 'RenFunix ツ', true],
-  ['14708235045', 'Shiro', true],
+  ['14708235045', 'Shelby Bot', true],
   ['+62 821-4886-4989', 'RenFunix ツ', true],
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
@@ -37,7 +37,7 @@ global.APIKeys = { // APIKey Here
   'https://leyscoders-api.herokuapp.com': 'dappakntlll',
   'https://violetics.pw': 'beta'
 }
-global.wm = '                「 𝚂𝙷𝙸𝚁𝙾-𝙼𝙳 あ⁩ 」' //Main Watermark
+global.wm = '                「 ᏚᎻᎬᏞᏴY ᏴᎾᎢ あ⁩ 」' //Main Watermark
 
 global.wm2 = '「 𝚁𝚎𝚗𝙵𝚞𝚗𝚒𝚡 ツ⁩ 」'
 
@@ -50,7 +50,7 @@ global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:m
 global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
 `
 
-global.author = '                「 𝚂𝙷𝙸𝚁𝙾-𝙼𝙳 あ⁩ 」'
+global.author = '                「 ᏚᎻᎬᏞᏴY ᏴᎾᎢ あ⁩ 」'
 
 global.thumbnailUrl = [
   'https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg', 'https://telegra.ph/file/ac4928f0824a2a0492737.jpg',
@@ -77,8 +77,8 @@ global.hbeach = ['https://telegra.ph/file/14ae0ba2da77d74e6b80c.jpg', 'https://t
 /*============== NOMOR ==============*/
 global.nomorbot = '14708235045'
 global.nomorown = '6282148864989'
-global.namebot = 'ShiroBot'
-global.nameown = 'RenFunix'
+global.namebot = 'sʜᴇʟʙʏ ʙᴏᴛ'
+global.nameown = 'ʀᴇɴғᴜɴɪx'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '99999999999999' // default 999TB
@@ -109,7 +109,7 @@ global.hsquere = '⛶', '❏', '⫹⫺'
 
 // Sticker WM
 global.packname = '2022'
-global.author = '© RenFunix'
+global.author = '© ʀᴇɴғᴜɴɪx'
 
 global.multiplier = 69 // The higher, The harder levelup
 
