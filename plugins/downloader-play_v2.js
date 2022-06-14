@@ -7,7 +7,7 @@ if (command == 'play.1') {
 conn.reply(m.chat, `*_⏳Wait,Audio Sedang Di Proses..._⏳*`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: 'AUDIO',
-body: 'Shiro-Bot',         
+body: 'Shelby Bot',         
 previewType: 0, thumbnail: fs.readFileSync("./thumbnail.jpg"),
 sourceUrl: `https://github.com/RenFunix/ShiroSad`}}})
 let res = await fetch("https://api.dhamzxploit.my.id/api/ytplaymp3?text="+text)
@@ -17,7 +17,7 @@ if (command == 'play.2') {
 conn.reply(m.chat, `*_⏳ Wait,Video Sedang Di Proses...⏳_*`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: 'VIDEO',
-body: 'Shiro-Bot',         
+body: 'Shelby Bot',         
 previewType: 0, thumbnail: fs.readFileSync("./thumbnail.jpg"),
 sourceUrl: `https://github.com/RenFunix/ShiroSad`}}})
 let res = await fetch("https://api.dhamzxploit.my.id/api/ytplaymp4?text="+text)
