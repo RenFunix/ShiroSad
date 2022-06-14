@@ -1,24 +1,24 @@
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `*───────[ BIODATA OWNER ]───────*
-*💌 Nama* : Shiro Bot
-*✉️ Nama Asli* : Andi
-*♂️ Gender* : Laki - laki
-*🕋 Agama* : Islam
-*⏰ Tanggal lahir* : 31 Juli 2002
-*🎨 Umur* : 19
-*🧮 Kelas* : Lulusan dcoding
-*🧩 Hobby* : ngoding, main game
-*💬 Sifat* : Dingin seperti slebew
-*🗺️ Tinggal* : Samarinda, Indonesia
-*❤️ Kesukaan* : make discord bot
-*💔 Benci* : bocah satir
+*💌 ɴᴀᴍᴀ* : sʜᴇʟʙʏ ʙᴏᴛ
+*✉️ ɴᴀᴍᴀ ᴀsʟɪ* : ᴀɴᴅɪ
+*♂️ ɢᴇɴᴅᴇʀ* : ʟᴀᴋɪ - ʟᴀᴋɪ
+*🕋 ᴀɢᴀᴍᴀ* : ɪsʟᴀᴍ
+*⏰ ᴛᴀɴɢɢᴀʟ ʟᴀʜɪʀ* : 31 ᴊᴜʟɪ 2002
+*🎨 ᴜᴍᴜʀ* : 19
+*🧮 ᴋᴇʟᴀs* : ʟᴜʟᴜsᴀɴ ᴅᴄᴏᴅɪɴɢ
+*🧩 ʜᴏʙʙʏ* : ɴɢᴏᴅɪɴɢ, ᴍᴀɪɴ ɢᴀᴍᴇ
+*💬 sɪғᴀᴛ* : ᴅɪɴɢɪɴ sᴇᴘᴇʀᴛɪ sʟᴇʙᴇᴡ
+*🗺️ ᴛɪɴɢɢᴀʟ* : sᴀᴍᴀʀɪɴᴅᴀ, ɪɴᴅᴏɴᴇsɪᴀ
+*❤️ ᴋᴇsᴜᴋᴀᴀɴ* : ᴍᴀᴋᴇ ʙᴏᴛ ᴅɪsᴄᴏʀᴅ
+*💔 ʙᴇɴᴄɪ* : ʙᴏᴄᴀʜ sᴀᴛɪʀ, ᴅᴀɴ ᴏʀᴀɴɢ ᴄɪɴᴀ
 
 *───────[ SOSIAL MEDIA ]───────*
-*📷 instagran* : @renfunix
-*🇫  Facebook* : Ndiie
-*🏮 Chanel Youtube* : Ren Funix
-*🐈 Github:* RenFunix
+*📷 ɪɴsᴛᴀɢʀᴀᴍ* : @renfunix
+*🇫 ғᴀᴄᴇʙᴏᴏᴋ* : Ndiie
+*🏮 ᴄʜᴀɴɴᴇʟ ʏᴏᴜᴛᴜʙᴇ* : Ren Funix
+*🐈 ɢɪᴛʜᴜʙ*: RenFunix
 
 `
 conn.sendHydrated(m.chat, teksbio, wm, ppown, "wa.me/" + nomorown, "💬 ᴄʜᴀᴛs", null,null, [["ᴅᴏɴᴀsɪ", '.donasi'], [null, null],[null,null]], m)
