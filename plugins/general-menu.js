@@ -94,11 +94,11 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
    // conn.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/c82d5c358495e8ef15916.mp4' }, gifPlayback: true, gifAttribution: ~~(Math.random() * 2), caption: text.trim(), footer: await conn.getName(conn.user.jid) , templateButtons: [{ quickReplyButton: { displayText: 'Speedtest', id: `${_p}ping` }}, { quickReplyButton: { displayText: 'Owner', id: `${_p}owner` }} ] })
    conn.sendButton(m.chat, `*${wish()}, ${name} 👋*`, text.trim(), await genProfile(conn, m), [['Speedtest', _p + 'ping'], ['Owner', _p + 'owner']], false, { quoted: fkon, contextInfo: { externalAdReply: { showAdAttribution: true,
 mediaType: 'VIDEO',
-mediaUrl: 'https://telegra.ph/file/2b376a3a16da00b2439e6.jpg',
-title: 'Shiro Bot',
+mediaUrl: 'https://telegra.ph/file/e4dbf3d75277adda7ded2.jpg',
+title: 'Shelby Bot',
 body: 'By RenFunix',
 thumbnail: fs.readFileSync("./thumbnail.jpg"),
-sourceUrl: 'https://youtu.be/poD-7_U3jXk'
+sourceUrl: 'https://chat.whatsapp.com/JMv6TBnYGCe7NngMhLdGmb'
 }
   }
 })
